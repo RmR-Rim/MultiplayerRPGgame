@@ -1,0 +1,407 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1687282274660143, "dur":1662, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687282274661818, "dur":179, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1687282274662027, "dur":27, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1687282274662054, "dur":638, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1687282274662728, "dur":808, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687282274663536, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687282274701800, "dur":261, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687282274702061, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687282274702082, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687282274702088, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687282274702097, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687282274702101, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687282274702108, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687282274702112, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687282274702120, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687282274702123, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687282274702131, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687282274702134, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687282274702141, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687282274702145, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687282274702155, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687282274702159, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687282274702166, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687282274702170, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687282274702178, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687282274702183, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687282274702191, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687282274702194, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687282274702204, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687282274702208, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687282274702214, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687282274702226, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687282274702256, "dur":2189, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1687282274662974, "dur":569, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687282274663546, "dur":5245, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687282274668805, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1687282274668810, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687282274668882, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1687282274668884, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687282274668983, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1687282274669076, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687282274669155, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687282274669238, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687282274669293, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687282274669393, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687282274669443, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687282274669561, "dur":175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687282274669737, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687282274669790, "dur":172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687282274669963, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687282274670150, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687282274670226, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687282274670274, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687282274670367, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687282274670559, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687282274670622, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687282274670733, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687282274670778, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687282274670829, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687282274670883, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687282274670935, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687282274670978, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687282274671025, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687282274671072, "dur":414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/Mirror.Components.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687282274671486, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687282274671539, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1687282274671601, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687282274693229, "dur":1043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/Rpg_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1687282274694331, "dur":7488, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687282274662976, "dur":573, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687282274663549, "dur":5247, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687282274668805, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1687282274668971, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687282274669083, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687282274669157, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687282274669228, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687282274669286, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687282274669331, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687282274669442, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687282274669495, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687282274669555, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687282274669705, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687282274669785, "dur":178, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687282274669964, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687282274670053, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687282274670101, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687282274670153, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687282274670256, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687282274670311, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687282274670357, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687282274670517, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687282274670569, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687282274670623, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687282274670675, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687282274670727, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687282274670786, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687282274670944, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687282274670998, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687282274671049, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687282274671193, "dur":18818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687282274690022, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687282274690172, "dur":1017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/Rpg_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687282274691228, "dur":10592, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687282274663011, "dur":544, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687282274663555, "dur":5238, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687282274668804, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1687282274668937, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687282274668991, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687282274669071, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687282274669154, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687282274669225, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687282274669274, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687282274669331, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687282274669407, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687282274669471, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687282274669535, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687282274669591, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687282274669647, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687282274669702, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687282274669756, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687282274669808, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687282274669863, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687282274670012, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687282274670067, "dur":490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687282274670557, "dur":640, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687282274671198, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1687282274671275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687282274671930, "dur":3702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/Rpg_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1687282274675693, "dur":26119, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687282274663050, "dur":515, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687282274663565, "dur":5232, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687282274668805, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1687282274668989, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687282274669057, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1687282274669148, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687282274669214, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687282274669275, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687282274669408, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687282274669479, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687282274669541, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687282274669635, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687282274669693, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687282274669762, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687282274669816, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687282274669947, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687282274670003, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687282274670183, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687282274670253, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687282274670308, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687282274670356, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687282274670503, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687282274670556, "dur":768, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/Telepathy.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687282274671324, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687282274671376, "dur":1351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1687282274672728, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687282274672795, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1687282274672853, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687282274672857, "dur":2640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/Rpg_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1687282274675551, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1687282274675722, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687282274675786, "dur":26021, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687282274663085, "dur":484, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687282274663569, "dur":5229, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687282274668805, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1687282274668929, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687282274668986, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687282274669055, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687282274669109, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687282274669216, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687282274669269, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687282274669333, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687282274669391, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687282274669450, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687282274669505, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687282274669561, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687282274669616, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687282274669663, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687282274669718, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687282274669772, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687282274669836, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687282274669959, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687282274670099, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687282274670265, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687282274670319, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687282274670556, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687282274670612, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687282274670669, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687282274670721, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687282274670778, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687282274670829, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687282274670875, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687282274670919, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687282274670967, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687282274671016, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/Mirror.Transports.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687282274671202, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687282274671326, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1687282274671399, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687282274673108, "dur":2398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/Rpg_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1687282274675576, "dur":26222, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687282274663124, "dur":451, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687282274663575, "dur":5220, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687282274668805, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1687282274668916, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687282274668975, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1687282274669058, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687282274669112, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687282274669163, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687282274669233, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687282274669292, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687282274669349, "dur":438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687282274669787, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687282274669844, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687282274670009, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687282274670080, "dur":927, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687282274671008, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687282274671065, "dur":326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/Mirror.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687282274671391, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687282274671440, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1687282274671491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687282274683521, "dur":2524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/Rpg_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1687282274686082, "dur":15746, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687282274663159, "dur":423, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687282274663582, "dur":5217, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687282274668805, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1687282274668907, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687282274668975, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1687282274669035, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687282274669086, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687282274669158, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687282274669294, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687282274669359, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687282274669413, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687282274669467, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687282274669528, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687282274669579, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687282274669632, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687282274669690, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687282274669754, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687282274669807, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687282274669849, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687282274669968, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687282274670037, "dur":1048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687282274671086, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687282274671139, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687282274671495, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687282274671540, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1687282274671593, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687282274692756, "dur":1258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/Rpg_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1687282274694075, "dur":7742, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687282274663186, "dur":401, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687282274663587, "dur":5222, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687282274668809, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1687282274668915, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687282274668972, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1687282274669025, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687282274669082, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687282274669152, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687282274669225, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687282274669291, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687282274669346, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687282274669421, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687282274669557, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687282274669852, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687282274669969, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687282274670086, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687282274670197, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687282274670248, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687282274670290, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687282274670454, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687282274670504, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687282274670695, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687282274670757, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687282274670814, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687282274670861, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687282274670914, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687282274670963, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/SimpleWebTransport.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687282274671137, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687282274671266, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1687282274671396, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687282274672694, "dur":3373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/Rpg_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1687282274676122, "dur":25682, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687282274663214, "dur":378, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687282274663592, "dur":5208, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687282274668805, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1687282274668908, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687282274668975, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1687282274669030, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687282274669082, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1687282274669159, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687282274669241, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687282274669334, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687282274669405, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687282274669472, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687282274669547, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687282274669628, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687282274669685, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687282274669750, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687282274669806, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687282274669954, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687282274670010, "dur":1029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687282274671039, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687282274671091, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/kcp2k.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687282274671315, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687282274671365, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":9, "ts":1687282274671526, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687282274671587, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1687282274671648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687282274700483, "dur":1229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/Rpg_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1687282274701754, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":9, "ts":1687282274701756, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687282274663245, "dur":353, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687282274663598, "dur":5203, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687282274668805, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1687282274668937, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687282274668998, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687282274669161, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687282274669239, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687282274669298, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687282274669363, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687282274669432, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687282274669478, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687282274669536, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687282274669602, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687282274669661, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687282274669719, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687282274669776, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687282274669840, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687282274669962, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687282274670015, "dur":736, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687282274670751, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687282274670800, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687282274670847, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687282274670890, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687282274670938, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687282274670985, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687282274671033, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687282274671080, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/Mirror.Authenticators.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687282274671267, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687282274671329, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1687282274671401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687282274673578, "dur":1966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/Rpg_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1687282274675593, "dur":26204, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687282274663263, "dur":340, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687282274663603, "dur":5201, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687282274668805, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1687282274668902, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687282274668968, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1687282274669048, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687282274669104, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687282274669163, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687282274669251, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687282274669307, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687282274669364, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687282274669428, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687282274669482, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687282274669545, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687282274669600, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687282274669650, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687282274669693, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687282274669772, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687282274669835, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687282274669963, "dur":712, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687282274670676, "dur":528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687282274671205, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687282274671273, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1687282274671334, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687282274672236, "dur":3382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/Rpg_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1687282274675669, "dur":26127, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687282274663289, "dur":319, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687282274663608, "dur":5213, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687282274668822, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1687282274668899, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687282274668956, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1687282274669008, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687282274669075, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg.exe" }}
+,{ "pid":12345, "tid":12, "ts":1687282274669160, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687282274669243, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687282274669299, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687282274669365, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687282274669423, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687282274669472, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687282274669528, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687282274669577, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687282274669690, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687282274669849, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687282274669968, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687282274670026, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687282274670077, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687282274670129, "dur":483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687282274670612, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687282274670661, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687282274670712, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687282274670758, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687282274670811, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687282274670856, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687282274670907, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687282274670956, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687282274671005, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687282274671052, "dur":419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/Managed/Mirror.Examples.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687282274671471, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687282274671526, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles BuildGame/Rpg_Data/resources.assets" }}
+,{ "pid":12345, "tid":12, "ts":1687282274671594, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687282274683982, "dur":1838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"BuildGame/Rpg_Data/resources.assets" }}
+,{ "pid":12345, "tid":12, "ts":1687282274685885, "dur":15931, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687282274706220, "dur":1464, "ph":"X", "name": "ProfilerWriteOutput" }
+,
